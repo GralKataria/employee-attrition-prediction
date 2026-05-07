@@ -59,18 +59,6 @@ Visual analysis was performed using:
 
 ---
 
-##  Data Preparation Steps
-
-To prepare the dataset for modeling, the following steps were performed:
-
-- Removed irrelevant or redundant columns
-- Converted categorical variables into numerical form using encoding techniques
-- Verified absence of missing values
-- Separated dataset into features (X) and target (y)
-- Split data into training and testing sets
-
----
-
 ##  Machine Learning Models Implemented
 
 Three classification algorithms were applied:
@@ -108,19 +96,6 @@ Performance was measured using accuracy score and classification metrics.
 - Work-Life Balance indicators
 
 These features significantly impact employee retention decisions.
-
----
-
-##  Project File Structure
-
-```
-Employee-Attrition-Prediction/
-│
-├── dataset.csv                          # HR dataset
-├── Employee_Attrition.ipynb            # Main notebook
-├── employee_attrition_model.pkl        # Trained model file
-└── README.md                            # Project documentation
-```
 
 ---
 
